@@ -1,0 +1,107 @@
+<html>
+	<head>
+		<style>
+		*{
+			margin:0;
+			padding:0;
+		}
+		li{
+			list-style: none;
+		}
+		header{
+			height: 60px;
+			line-height: 60px;
+			font-size: 24px;
+			background-color: #eee;
+		}
+		nav{
+			background-color: chartreuse;
+			display: flex;
+			justify-content: space-between;
+			padding: 24px 0;
+		}
+		nav ul{
+			width: 100%;
+			display: flex;
+			justify-content: space-around;
+		}
+		nav ul li{
+			background-color: #eee;
+			padding: 16px 32px;
+		}
+		nav img{
+			height: 24px;
+			width: 24px;
+			padding: 16px 4px;
+		}
+		div{
+			display: flex;
+		}
+		div section{
+			flex-grow: 4;
+		}
+		body>div aside{
+			flex-grow: 1;
+			background-color: beige;
+		}
+		body>div *{
+			height: 480px;
+		}
+
+		footer{
+			background-color: teal;
+			padding: 16px 0;
+		}
+		footer ul{
+			display: flex;
+			flex-wrap: wrap;
+			align-content: space-between;
+		}
+		footer ul li{
+			width: 30%;
+			margin: 8px 0;
+			text-align: center;
+		}
+		footer ul li a{
+			color: white;
+			font-size: 18px;
+		}
+
+		
+
+		</style>
+	</head>
+	<body>
+		<header>Header</header>
+		<nav>
+			<ul>
+				<Li>Accueil</Li>
+				<Li>Page 1</Li>
+				<Li>Page 2</Li>
+				<Li>Page 3</Li>
+			</ul>
+			<div>
+				<img src="fb.png" alt="">
+				<img src="yt.png" alt="">
+			</div>
+		</nav>
+		<div>
+			<aside>Aside</aside>
+			<section>Section</section>
+			<aside>Aside</aside>
+		</div>
+		<footer>
+			<ul>
+				<li><a href="#">Lien</a></li>
+				<li><a href="#">Lien</a></li>
+				<li><a href="#">Lien</a></li>
+				<li><a href="#">Lien</a></li>
+				<li><a href="#">Lien</a></li>
+				<li><a href="#">Lien</a></li>
+				<li><a href="#">Lien</a></li>
+				<li><a href="#">Lien</a></li>
+				<li><a href="#">Lien</a></li>
+			</ul>
+		</footer>
+	</body>
+</html>
