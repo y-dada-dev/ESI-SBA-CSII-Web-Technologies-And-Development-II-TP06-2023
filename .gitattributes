@@ -1,5 +1,2 @@
-*.js linguist-detectable=true
-*.js linguist-language=JavaScript
-
-*.min.js linguist-detectable=true
-*.min.js linguist-language=JavaScript
+*.min.css linguist-detectable=true
+*.min.css linguist-language=CSS
